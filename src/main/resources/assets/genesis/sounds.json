@@ -1,0 +1,10 @@
+{
+  "cruel_angel_thesis": {
+    "sounds": [
+      {
+        "name": "genesis:cruel_angel_thesis",
+        "stream": true
+      }
+    ]
+  }
+}

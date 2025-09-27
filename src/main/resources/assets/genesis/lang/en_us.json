@@ -1,0 +1,39 @@
+{
+  "item.genesis.batata": "Batata",
+  "item.genesis.naobatata": "Batata Envenenada",
+  "item.genesis.detector_batata": "Detector de Batata",
+  "item.genesis.batata_staff": "Cajado de Batata",
+  "item.genesis.batata_sword": "Espada de Batata",
+  "item.genesis.batata_pickaxe": "Picareta de Batata",
+  "item.genesis.batata_axe": "Machado de Batata",
+  "item.genesis.batata_shovel": "Pá de Batata",
+  "item.genesis.batata_hoe": "Enxada de Batata",
+  "item.genesis.batata_helmet": "Capacete de Batata",
+  "item.genesis.batata_chestplate": "Peitoral de Batata",
+  "item.genesis.batata_leggings": "Calças de Batata",
+  "item.genesis.batata_boots": "Botas de Batata",
+  "item.genesis.cruel_angel_thesis_music_disc": "A Cruel Angel's Thesis",
+  "item.genesis.cruel_angel_thesis_music_disc.desc": "Yoko Takahashi",
+
+
+  "block.genesis.batata_block": "Bloco de Batata",
+  "block.genesis.batata_envenenada_block": "Bloco de Batata Envenenada",
+  "block.genesis.batata_ore": "Minério de Batata",
+  "block.genesis.sound_block": "Bloco Inútil de Som",
+  "tooltip.genesis.detector_batata.tooltip": "Acha minérios de batata abaixo do bloco interagido",
+  "tooltip.genesis.sound_block.tooltip": "Toca um som bem alto e irritante quando interagido. Não pisa em cima, é quente como lava",
+
+  "block.genesis.batata_stairs": "Escadas de Batata",
+  "block.genesis.batata_slab": "Laje de Batata",
+  "block.genesis.batata_button": "Botão de Batata",
+  "block.genesis.batata_pressure_plate": "Placa de pressão de Batata",
+  "block.genesis.batata_fence": "Cerca de Batata",
+  "block.genesis.batata_fence_gate": "Portão de Batata",
+  "block.genesis.batata_wall": "Parede de Batata",
+  "block.genesis.batata_door": "Porta de Batata",
+  "block.genesis.batata_trapdoor": "Alçapão de Batata",
+
+
+
+  "creativetab.genesis_tab": "Genesis"
+}

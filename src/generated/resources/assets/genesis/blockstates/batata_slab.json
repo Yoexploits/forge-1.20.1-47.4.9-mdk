@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "genesis:block/batata_slab"
+    },
+    "type=double": {
+      "model": "genesis:block/batata_block"
+    },
+    "type=top": {
+      "model": "genesis:block/batata_slab_top"
+    }
+  }
+}

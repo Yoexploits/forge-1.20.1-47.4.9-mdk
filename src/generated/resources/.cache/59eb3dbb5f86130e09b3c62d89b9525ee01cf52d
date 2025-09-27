@@ -1,0 +1,14 @@
+// 1.20.1	2025-09-25T16:46:08.2665926	Loot Tables
+6040a259936664494289ff9b3a974d3e13c9d905 data/genesis/loot_tables/blocks/batata_block.json
+6492eb6230d65b828f314ea8a44dcf32bb6cf759 data/genesis/loot_tables/blocks/batata_button.json
+62aa0b031296d0c2120d997b9f04f31ad7a1032f data/genesis/loot_tables/blocks/batata_door.json
+937b1ac804bf6f54af76b193bada9967c4536b0a data/genesis/loot_tables/blocks/batata_envenenada_block.json
+2e4bab26b1af395d0bf9d6ce41fa513c0c7264f6 data/genesis/loot_tables/blocks/batata_fence.json
+b20305fd604ce507b8ecd0b24f8819be10ff869d data/genesis/loot_tables/blocks/batata_fence_gate.json
+ecc20a22a490e6ef8279b50fb3e2987d818ec347 data/genesis/loot_tables/blocks/batata_ore.json
+275dad54123132e8bd4a186799792b7593a1dae5 data/genesis/loot_tables/blocks/batata_pressure_plate.json
+1e302a3db9d96c18289172c28fc5cdfefca982a2 data/genesis/loot_tables/blocks/batata_slab.json
+aaaa92cf1af3842716d164232528f790a11b5aac data/genesis/loot_tables/blocks/batata_stairs.json
+b7b7263543d96533ddef70ad5433a9b2644a7b9e data/genesis/loot_tables/blocks/batata_trapdoor.json
+fb341720e5e19ea48540f297486a9518cd906241 data/genesis/loot_tables/blocks/batata_wall.json
+f6e7ba3c2314c2b31fba8ad98f16652a41697463 data/genesis/loot_tables/blocks/sound_block.json

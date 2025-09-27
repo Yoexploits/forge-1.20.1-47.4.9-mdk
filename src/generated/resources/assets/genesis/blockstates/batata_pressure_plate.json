@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "genesis:block/batata_pressure_plate"
+    },
+    "powered=true": {
+      "model": "genesis:block/batata_pressure_plate_down"
+    }
+  }
+}
