@@ -21,6 +21,8 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> SOUND_BLOCK_HIT = registerSoundEvents("sound_block_hit");
 
     public static final RegistryObject<SoundEvent> CRUEL_ANGEL_THESIS = registerSoundEvents("cruel_angel_thesis");
+    public static final RegistryObject<SoundEvent> CRUEL_ANGEL_THESIS_MONO = registerSoundEvents("cruel_angel_thesis_mono");
+    public static final RegistryObject<SoundEvent> SQUEAK = registerSoundEvents("squeak");
 
 
     public static final ForgeSoundType SOUND_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,

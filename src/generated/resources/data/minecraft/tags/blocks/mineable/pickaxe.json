@@ -1,5 +1,7 @@
 {
   "values": [
-    "genesis:batata_ore"
+    "genesis:batata_ore",
+    "genesis:sheep_summon_block",
+    "genesis:lilith_block"
   ]
 }

@@ -2,8 +2,6 @@ package net.raseli.genesismod.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.packs.resources.Resource;
-import net.minecraft.world.entity.Display;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
@@ -12,8 +10,8 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.raseli.genesismod.GenesisMod;
-import net.raseli.genesismod.block.modblocks;
-import net.raseli.genesismod.item.moditems;
+import net.raseli.genesismod.block.ModBlocks;
+import net.raseli.genesismod.item.ModItems;
 
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
@@ -22,29 +20,37 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(moditems.BATATA);
-        simpleItem(moditems.BATATA_ENVENENADA);
-        simpleItem(moditems.DETECTOR_DE_BATATA);
-        simpleItem(moditems.CRUEL_ANGEL_THESIS_MUSIC_DISC);
+        simpleItem(ModItems.BATATA);
+        simpleItem(ModItems.BATATA_ENVENENADA);
+        simpleItem(ModItems.DETECTOR_DE_BATATA);
+        simpleItem(ModItems.CRUEL_ANGEL_THESIS_MUSIC_DISC);
+        simpleItem(ModItems.CRUEL_ANGEL_THESIS_MUSIC_DISC_MONO);
+        simpleItem(ModItems.BEER);
+        simpleItem(ModItems.FUMO);
 
-        simpleBlockItem(modblocks.BATATA_DOOR);
+        simpleBlockItem(ModBlocks.BATATA_DOOR);
 
-        fenceItem(modblocks.BATATA_FENCE, modblocks.BATATA_BLOCK);
-        buttonItem(modblocks.BATATA_BUTTON, modblocks.BATATA_BLOCK);
-        wallItem(modblocks.BATATA_WALL, modblocks.BATATA_BLOCK);
+        fenceItem(ModBlocks.BATATA_FENCE, ModBlocks.BATATA_BLOCK);
+        buttonItem(ModBlocks.BATATA_BUTTON, ModBlocks.BATATA_BLOCK);
+        wallItem(ModBlocks.BATATA_WALL, ModBlocks.BATATA_BLOCK);
 
-        evenSimplerBlockItem(modblocks.BATATA_STAIRS);
-        evenSimplerBlockItem(modblocks.BATATA_SLAB);
-        evenSimplerBlockItem(modblocks.BATATA_PRESSURE_PLATE);
-        evenSimplerBlockItem(modblocks.BATATA_FENCE_GATE);
+        evenSimplerBlockItem(ModBlocks.BATATA_STAIRS);
+        evenSimplerBlockItem(ModBlocks.BATATA_SLAB);
+        evenSimplerBlockItem(ModBlocks.BATATA_PRESSURE_PLATE);
+        evenSimplerBlockItem(ModBlocks.BATATA_FENCE_GATE);
 
-        trapdoorItem(modblocks.BATATA_TRAPDOOR);
+        trapdoorItem(ModBlocks.BATATA_TRAPDOOR);
 
-        handheldItem(moditems.BATATA_SWORD);
-        handheldItem(moditems.BATATA_PICKAXE);
-        handheldItem(moditems.BATATA_AXE);
-        handheldItem(moditems.BATATA_SHOVEL);
-        handheldItem(moditems.BATATA_HOE);
+        handheldItem(ModItems.BATATA_SWORD);
+        handheldItem(ModItems.BATATA_PICKAXE);
+        handheldItem(ModItems.BATATA_AXE);
+        handheldItem(ModItems.BATATA_SHOVEL);
+        handheldItem(ModItems.BATATA_HOE);
+        handheldItem(ModItems.BATATA_HELMET);
+        handheldItem(ModItems.BATATA_CHESTPLATE);
+        handheldItem(ModItems.BATATA_LEGGINGS);
+        handheldItem(ModItems.BATATA_BOOTS);
+        withExistingParent(ModItems.PENPEN_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
 
     }
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

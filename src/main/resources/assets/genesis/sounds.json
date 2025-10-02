@@ -6,5 +6,21 @@
         "stream": true
       }
     ]
+  },
+  "cruel_angel_thesis_mono": {
+    "sounds": [
+      {
+        "name": "genesis:cruel_angel_thesis_mono",
+        "stream": true
+      }
+    ]
+  },
+  "squeak": {
+    "sounds": [
+      {
+        "name": "genesis:squeak",
+        "stream": true
+      }
+    ]
   }
 }

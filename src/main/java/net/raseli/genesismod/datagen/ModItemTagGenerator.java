@@ -7,7 +7,7 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.raseli.genesismod.GenesisMod;
-import net.raseli.genesismod.item.moditems;
+import net.raseli.genesismod.item.ModItems;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -21,10 +21,12 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(ItemTags.MUSIC_DISCS)
-                .add(moditems.CRUEL_ANGEL_THESIS_MUSIC_DISC.get());
+                .add(ModItems.CRUEL_ANGEL_THESIS_MUSIC_DISC.get(),
+                (ModItems.CRUEL_ANGEL_THESIS_MUSIC_DISC_MONO.get()));
 
                 this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
-                .add(moditems.CRUEL_ANGEL_THESIS_MUSIC_DISC.get());
+                .add(ModItems.CRUEL_ANGEL_THESIS_MUSIC_DISC.get(),
+                        ModItems.CRUEL_ANGEL_THESIS_MUSIC_DISC_MONO.get());
 
     }
 }

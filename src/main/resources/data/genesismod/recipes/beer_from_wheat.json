@@ -1,0 +1,12 @@
+{
+  "type": "genesis:beer_recipe",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "genesis:beer"
+  }
+}

@@ -3,6 +3,7 @@
   "item.genesis.naobatata": "Batata Envenenada",
   "item.genesis.detector_batata": "Detector de Batata",
   "item.genesis.batata_staff": "Cajado de Batata",
+  "item.genesis.longinus_spear": "Lança de Longinus",
   "item.genesis.batata_sword": "Espada de Batata",
   "item.genesis.batata_pickaxe": "Picareta de Batata",
   "item.genesis.batata_axe": "Machado de Batata",
@@ -12,16 +13,27 @@
   "item.genesis.batata_chestplate": "Peitoral de Batata",
   "item.genesis.batata_leggings": "Calças de Batata",
   "item.genesis.batata_boots": "Botas de Batata",
-  "item.genesis.cruel_angel_thesis_music_disc": "A Cruel Angel's Thesis",
+  "item.genesis.cruel_angel_thesis_music_disc": "A Cruel Angel's Thesis (Global)",
   "item.genesis.cruel_angel_thesis_music_disc.desc": "Yoko Takahashi",
+  "item.genesis.cruel_angel_thesis_music_disc_mono": "A Cruel Angel's Thesis",
+  "item.genesis.cruel_angel_thesis_music_disc_mono.desc": "Yoko Takahashi",
+  "item.genesis.beer": "Cerveja",
+  "item.genesis.penpen_spawn_egg": "Ovo de Penpen",
+  "item.genesis.fumo": "fumo",
+
 
 
   "block.genesis.batata_block": "Bloco de Batata",
+  "block.genesis.lilith_block": "Pedaço Instável de Lilith",
   "block.genesis.batata_envenenada_block": "Bloco de Batata Envenenada",
   "block.genesis.batata_ore": "Minério de Batata",
   "block.genesis.sound_block": "Bloco Inútil de Som",
+  "block.genesis.sheep_summon_block": "Bloco de Invocação de Ovelhas",
+  "block.genesis.house_builder_block": "Bloco Construtor de Casas",
   "tooltip.genesis.detector_batata.tooltip": "Acha minérios de batata abaixo do bloco interagido",
   "tooltip.genesis.sound_block.tooltip": "Toca um som bem alto e irritante quando interagido. Não pisa em cima, é quente como lava",
+  "tooltip.genesis.sheep_summon_block.tooltip": "Invoca uma ovelha aleatória (amarela, vermelha ou azul) com nomes especiais quando você pisa em cima",
+  "tooltip.genesis.house_builder_block.tooltip": "Consome madeira do seu inventário para construir uma casa automaticamente quando colocado. Quanto mais madeira, maior a casa!",
 
   "block.genesis.batata_stairs": "Escadas de Batata",
   "block.genesis.batata_slab": "Laje de Batata",
@@ -32,8 +44,10 @@
   "block.genesis.batata_wall": "Parede de Batata",
   "block.genesis.batata_door": "Porta de Batata",
   "block.genesis.batata_trapdoor": "Alçapão de Batata",
+  "block.genesis.beer_station": "Mesa de Cerveja",
 
+  "jei.genesis.beer_brewing": "Beer Brewing",
 
-
-  "creativetab.genesis_tab": "Genesis"
+  "creativetab.genesis_tab": "Genesis",
+  "jei.genesis.beer_recipe": "Beer Brewing"
 }

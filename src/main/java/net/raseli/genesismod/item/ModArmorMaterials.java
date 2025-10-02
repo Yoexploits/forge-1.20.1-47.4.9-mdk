@@ -1,6 +1,5 @@
 package net.raseli.genesismod.item;
 
-import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
@@ -12,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     BATATA("batata", 14, new int[]{3, 5, 3, 2}, 25,
-            SoundEvents.CROP_PLANTED, 1f, 0f, () -> Ingredient.of(moditems.BATATA.get()));
+            SoundEvents.CROP_PLANTED, 1f, 0f, () -> Ingredient.of(ModItems.BATATA.get()));
 
     private final String name;
     private final int durabilityMultiplier;

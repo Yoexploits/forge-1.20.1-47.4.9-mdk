@@ -1,20 +1,19 @@
 package net.raseli.genesismod.datagen.loot;
 
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
-import net.raseli.genesismod.block.modblocks;
-import net.raseli.genesismod.item.moditems;
+import net.raseli.genesismod.block.ModBlocks;
+import net.raseli.genesismod.item.ModItems;
 
 import java.util.Set;
 
@@ -25,26 +24,31 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(modblocks.BATATA_BLOCK.get());
-        this.dropSelf(modblocks.BATATA_ENVENENADA_BLOCK.get());
-        this.dropSelf(modblocks.SOUND_BLOCK.get());
+        this.dropSelf(ModBlocks.BATATA_BLOCK.get());
+        this.dropSelf(ModBlocks.BATATA_ENVENENADA_BLOCK.get());
+        this.dropSelf(ModBlocks.SOUND_BLOCK.get());
+        this.dropSelf(ModBlocks.SHEEP_SUMMON_BLOCK.get());
+        this.dropSelf(ModBlocks.HOUSE_BUILDER_BLOCK.get());
 
-        this.dropSelf(modblocks.BATATA_WALL.get());
-        this.dropSelf(modblocks.BATATA_FENCE.get());
-        this.dropSelf(modblocks.BATATA_FENCE_GATE.get());
-        this.dropSelf(modblocks.BATATA_TRAPDOOR.get());
-        this.dropSelf(modblocks.BATATA_BUTTON.get());
-        this.dropSelf(modblocks.BATATA_STAIRS.get());
-        this.dropSelf(modblocks.BATATA_PRESSURE_PLATE.get());
-
-        this.add(modblocks.BATATA_SLAB.get(),
-                block -> createSlabItemTable(modblocks.BATATA_SLAB.get()));
-        this.add(modblocks.BATATA_DOOR.get(),
-                block -> createDoorTable(modblocks.BATATA_DOOR.get()));
+        this.dropSelf(ModBlocks.BATATA_WALL.get());
+        this.dropSelf(ModBlocks.BATATA_FENCE.get());
+        this.dropSelf(ModBlocks.BATATA_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.BATATA_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.BATATA_BUTTON.get());
+        this.dropSelf(ModBlocks.BATATA_STAIRS.get());
+        this.dropSelf(ModBlocks.BATATA_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.LILITH_BLOCK.get());
+        this.dropSelf(ModBlocks.BEER_STATION.get());
 
 
-        this.add(modblocks.BATATA_ORE.get(),
-                block -> createCopperLikeOreDrops(modblocks.BATATA_ORE.get(), moditems.BATATA.get()));
+        this.add(ModBlocks.BATATA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BATATA_SLAB.get()));
+        this.add(ModBlocks.BATATA_DOOR.get(),
+                block -> createDoorTable(ModBlocks.BATATA_DOOR.get()));
+
+
+        this.add(ModBlocks.BATATA_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.BATATA_ORE.get(), ModItems.BATATA.get()));
 
     }
 
@@ -58,6 +62,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected Iterable<Block> getKnownBlocks() {
-        return modblocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
+        return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;
     }
 }

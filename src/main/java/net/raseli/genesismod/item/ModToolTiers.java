@@ -14,6 +14,6 @@ import java.util.List;
 public class ModToolTiers {
     public static final Tier BATATA = TierSortingRegistry.registerTier(
             new ForgeTier(5, 1500,5f,4f,25,
-                    ModTags.Blocks.NEEDS_BATATA_TOOL, () -> Ingredient.of(moditems.BATATA.get())),
+                    ModTags.Blocks.NEEDS_BATATA_TOOL, () -> Ingredient.of(ModItems.BATATA.get())),
             ResourceLocation.tryBuild(GenesisMod.MOD_ID, "batata"), List.of(Tiers.NETHERITE), List.of());
 }

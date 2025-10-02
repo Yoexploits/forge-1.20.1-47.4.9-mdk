@@ -1,4 +1,4 @@
-// 1.20.1	2025-09-25T16:46:08.2635977	Block States: genesis
+// 1.20.1	2025-09-29T16:51:56.4281242	Block States: genesis
 da55275769eb8d3be59f9795d8b6cfb3c7423589 assets/genesis/blockstates/batata_block.json
 c2462bf10242cc7738b919a332be5e1822369968 assets/genesis/blockstates/batata_button.json
 4fbdf91b2fe0eb6e140aaec6f756da7829208272 assets/genesis/blockstates/batata_door.json
@@ -11,6 +11,9 @@ f88e3cb64bc1e991aae0835487741b7e3fae84a6 assets/genesis/blockstates/batata_press
 c018a85b143d3f8b1642704cd38f909d8ea99ceb assets/genesis/blockstates/batata_stairs.json
 c7a9aff5b66680660a587b92daafeb3f05b84284 assets/genesis/blockstates/batata_trapdoor.json
 5e7da2b7e8a178bf6e62e371840241d3c27a2212 assets/genesis/blockstates/batata_wall.json
+a35f010244e3ef7222bc6c8cec89fd0307709fbc assets/genesis/blockstates/beer_station.json
+af7750e95f2c25d00f7a82d00c227d05625e69e2 assets/genesis/blockstates/lilith_block.json
+318f53c73d35b331698382d7df5cec2728e31ab5 assets/genesis/blockstates/sheep_summon_block.json
 e35de52b49741f5cbf4078bfa27d832441bb3a8f assets/genesis/blockstates/sound_block.json
 4dbf083744dc7f8ceda8508caef33c1482a6883d assets/genesis/models/block/batata_block.json
 bc237e7cdb02436cc69442e90c2d72a4092a0067 assets/genesis/models/block/batata_button.json
@@ -44,8 +47,13 @@ a129172ba57dcc5a26093a429577bbab57141273 assets/genesis/models/block/batata_trap
 8c278435c72c9e0f99822248c5d197ea69c21bef assets/genesis/models/block/batata_wall_post.json
 98635f335b949f3d80700741aa9fbd211c835e39 assets/genesis/models/block/batata_wall_side.json
 af2561c15885d64d40a131c7148c7a774af2874c assets/genesis/models/block/batata_wall_side_tall.json
+2cdf6e2a71cccd5883d56bdf6150888d974ee4ad assets/genesis/models/block/lilith_block.json
+e3355303807707d13694214b17e92edbca47b6fc assets/genesis/models/block/sheep_summon_block.json
 032e22cfa2ff4553db35073845f806d29ded3d3a assets/genesis/models/block/sound_block.json
 107a54c4ec51f7a37a75d1ffa63c1688fbebb5ae assets/genesis/models/item/batata_block.json
 25ab790cfbf3b746f27bc2294a4b50a8537474a1 assets/genesis/models/item/batata_envenenada_block.json
 ca09c00344cac9a204d5959aecf13e97a641636f assets/genesis/models/item/batata_ore.json
+d78ceb389bd30bfccb60629e18fb85f3b5a770c7 assets/genesis/models/item/beer_station.json
+e10728073e1221a3b7c2a3fe01a0c75c12c48476 assets/genesis/models/item/lilith_block.json
+a2cffb0ffa5b088696737dbf526ba14b234ae85b assets/genesis/models/item/sheep_summon_block.json
 ce9ac620ecf446419a2d7988319cea8620e73ecb assets/genesis/models/item/sound_block.json

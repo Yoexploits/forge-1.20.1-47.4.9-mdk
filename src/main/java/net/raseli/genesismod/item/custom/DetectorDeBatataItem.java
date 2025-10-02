@@ -10,9 +10,8 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
-import net.raseli.genesismod.block.modblocks;
+import net.raseli.genesismod.block.ModBlocks;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -60,6 +59,6 @@ public class DetectorDeBatataItem extends Item {
     }
 
     private boolean isPotato(BlockState state) {
-        return state.is(modblocks.BATATA_ORE.get());
+        return state.is(ModBlocks.BATATA_ORE.get());
     }
 }
