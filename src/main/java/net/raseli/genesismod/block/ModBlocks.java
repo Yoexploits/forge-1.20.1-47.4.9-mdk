@@ -36,7 +36,7 @@ public class ModBlocks {
             () -> new SheepSummonBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> HOUSE_BUILDER_BLOCK = registerBlock("house_builder_block",
             () -> new HouseBuilderBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
-    public static final RegistryObject<Block> LILITH_BLOCK = registerBlock("lilith_block",
+    public static final RegistryObject<Block> ADAM_BLOCK = registerBlock("adam_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE)));
 
     public static final RegistryObject<Block> BATATA_STAIRS = registerBlock("batata_stairs",

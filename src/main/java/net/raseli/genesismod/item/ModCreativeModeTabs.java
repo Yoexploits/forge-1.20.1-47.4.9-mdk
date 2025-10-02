@@ -44,7 +44,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BATATA_BLOCK.get());
                         output.accept(ModBlocks.BATATA_ENVENENADA_BLOCK.get());
                         output.accept(ModBlocks.BATATA_ORE.get());
-                        output.accept(ModBlocks.LILITH_BLOCK.get());
+                        output.accept(ModBlocks.ADAM_BLOCK.get());
                         output.accept(ModItems.DETECTOR_DE_BATATA.get());
                         output.accept(ModItems.PENPEN_SPAWN_EGG.get());
                         output.accept(ModBlocks.SOUND_BLOCK.get());

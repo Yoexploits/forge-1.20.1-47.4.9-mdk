@@ -18,7 +18,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.BATATA_BLOCK);
         blockWithItem(ModBlocks.BATATA_ENVENENADA_BLOCK);
-        blockWithItem(ModBlocks.LILITH_BLOCK);
+        blockWithItem(ModBlocks.ADAM_BLOCK);
 
         simpleBlockWithItem(ModBlocks.BEER_STATION.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/beer_station")));

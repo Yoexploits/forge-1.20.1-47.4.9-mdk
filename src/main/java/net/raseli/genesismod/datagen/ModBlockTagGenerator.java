@@ -25,7 +25,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.BATATA_ORE.get(),
                         ModBlocks.SHEEP_SUMMON_BLOCK.get(),
-                        ModBlocks.LILITH_BLOCK.get()
+                        ModBlocks.ADAM_BLOCK.get()
                 );
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.SOUND_BLOCK.get()
@@ -45,7 +45,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.BATATA_ORE.get());
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.LILITH_BLOCK.get());
+                .add(ModBlocks.ADAM_BLOCK.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.BATATA_FENCE.get());

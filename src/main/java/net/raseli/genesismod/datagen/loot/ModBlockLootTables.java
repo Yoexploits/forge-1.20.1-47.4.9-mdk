@@ -5,7 +5,6 @@ import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
@@ -37,7 +36,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.BATATA_BUTTON.get());
         this.dropSelf(ModBlocks.BATATA_STAIRS.get());
         this.dropSelf(ModBlocks.BATATA_PRESSURE_PLATE.get());
-        this.dropSelf(ModBlocks.LILITH_BLOCK.get());
+        this.dropSelf(ModBlocks.ADAM_BLOCK.get());
         this.dropSelf(ModBlocks.BEER_STATION.get());
 
 
