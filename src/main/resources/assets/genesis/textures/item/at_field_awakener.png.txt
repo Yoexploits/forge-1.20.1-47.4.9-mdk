@@ -1,0 +1,9 @@
+This is a placeholder for the AT Field Awakener texture.
+
+To complete this implementation:
+1. Create a 16x16 PNG image named "at_field_awakener.png"
+2. Replace this text file with the actual PNG
+3. The image should be square, 16x1664 pixels
+4. Suggested design: Glowing geometric pattern with AT Field theme
+
+For now, the item will use Minecraft's default missing texture (purple/black checkerboard).
