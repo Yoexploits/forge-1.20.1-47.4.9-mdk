@@ -13,10 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.raseli.genesismod.GenesisMod;
 import net.raseli.genesismod.entity.ModEntities;
-import net.raseli.genesismod.item.custom.BatataStaffItem;
-import net.raseli.genesismod.item.custom.DetectorDeBatataItem;
-import net.raseli.genesismod.item.custom.FumoItem;
-import net.raseli.genesismod.item.custom.LonginusSpearItem;
+import net.raseli.genesismod.item.custom.*;
 import net.raseli.genesismod.sound.ModSounds;
 
 public class ModItems {
@@ -77,6 +74,8 @@ public class ModItems {
     public static final RegistryObject<Item> PENPEN_SPAWN_EGG = ITEMS.register("penpen_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.PENPEN, 0x7e9680, 0xc5d1c5,
                     new Item.Properties()));
+    public static final RegistryObject<Item> AT_FIELD_AWAKENER = ITEMS.register("at_field_awakener",
+            () -> new ATFieldAwakenerItem(new Item.Properties().stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {

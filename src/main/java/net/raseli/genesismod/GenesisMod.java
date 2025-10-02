@@ -19,6 +19,7 @@ import net.raseli.genesismod.entity.ModEntities;
 import net.raseli.genesismod.entity.client.PenPenRenderer;
 import net.raseli.genesismod.item.ModCreativeModeTabs;
 import net.raseli.genesismod.item.ModItems;
+import net.raseli.genesismod.event.ModEvents;
 import net.raseli.genesismod.recipe.ModRecipes;
 import net.raseli.genesismod.screen.BeerStationScreen;
 import net.raseli.genesismod.screen.ModMenuTypes;
@@ -44,7 +45,8 @@ public class GenesisMod {
         ModMenuTypes.register(modEventBus);
         ModRecipes.register(modEventBus);
         
-
+        // Register capabilities and events
+        ModEvents.register(modEventBus, MinecraftForge.EVENT_BUS);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -64,12 +66,16 @@ public class GenesisMod {
             event.accept(ModItems.BATATA);
             event.accept(ModItems.BATATA_ENVENENADA);
         }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.AT_FIELD_AWAKENER);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         net.raseli.genesismod.command.TeleportToMarMortoCommand.register(event.getServer().getCommands().getDispatcher());
+        net.raseli.genesismod.commands.ATFieldCommand.register(event.getServer().getCommands().getDispatcher());
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

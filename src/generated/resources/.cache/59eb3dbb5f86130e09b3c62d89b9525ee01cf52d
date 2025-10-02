@@ -1,4 +1,5 @@
-// 1.20.1	2025-09-29T16:51:56.4301229	Loot Tables
+// 1.20.1	2025-10-01T22:37:04.0064351	Loot Tables
+792cede547fe15e0bbaee0806b75ebd369eda130 data/genesis/loot_tables/blocks/adam_block.json
 6040a259936664494289ff9b3a974d3e13c9d905 data/genesis/loot_tables/blocks/batata_block.json
 6492eb6230d65b828f314ea8a44dcf32bb6cf759 data/genesis/loot_tables/blocks/batata_button.json
 62aa0b031296d0c2120d997b9f04f31ad7a1032f data/genesis/loot_tables/blocks/batata_door.json
@@ -13,6 +14,5 @@ b7b7263543d96533ddef70ad5433a9b2644a7b9e data/genesis/loot_tables/blocks/batata_
 fb341720e5e19ea48540f297486a9518cd906241 data/genesis/loot_tables/blocks/batata_wall.json
 35064c24ea9bd848b09ede47374213fd0bce9c86 data/genesis/loot_tables/blocks/beer_station.json
 ff8f376cabe3db7ecb4f284df86467b30435331f data/genesis/loot_tables/blocks/house_builder_block.json
-bfe0bb1a8e1d4e5446352052539acc4a47347b08 data/genesis/loot_tables/blocks/lilith_block.json
 09b164d2cb5f47b90b552bd057102e210058b099 data/genesis/loot_tables/blocks/sheep_summon_block.json
 f6e7ba3c2314c2b31fba8ad98f16652a41697463 data/genesis/loot_tables/blocks/sound_block.json

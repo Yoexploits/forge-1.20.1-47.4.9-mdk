@@ -18,6 +18,7 @@ public class ModMenuTypes {
             registerMenuType("beer_station_menu", BeerStationMenu::new);
 
 
+
     private static <T extends AbstractContainerMenu>RegistryObject<MenuType<T>> registerMenuType(String name, IContainerFactory<T> factory) {
         return MENUS.register(name, () -> IForgeMenuType.create(factory));
     }

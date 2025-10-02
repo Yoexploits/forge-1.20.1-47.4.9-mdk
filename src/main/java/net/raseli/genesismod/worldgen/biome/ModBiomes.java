@@ -17,7 +17,7 @@ public class ModBiomes {
     public static final ResourceKey<Biome> MAR_MORTO = ResourceKey.create(Registries.BIOME,
             ResourceLocation.tryBuild(GenesisMod.MOD_ID, "mar_morto"));
 
-    public static void boostrap(BootstapContext<Biome> context) {
+    public static void bootstrap(BootstapContext<Biome> context) {
         context.register(MAR_MORTO, marMorto(context));
     }
 
@@ -34,7 +34,14 @@ public class ModBiomes {
         // Ocean biome mob spawn settings
         MobSpawnSettings.Builder spawnBuilder = new MobSpawnSettings.Builder();
         
+        // Add ocean creatures
+        spawnBuilder.addSpawn(MobCategory.WATER_CREATURE, new MobSpawnSettings.SpawnerData(ModEntities.PENPEN.get(), 1, 1, 2));
+        spawnBuilder.addSpawn(MobCategory.WATER_CREATURE, new MobSpawnSettings.SpawnerData(EntityType.SQUID, 1, 1, 2));
+        spawnBuilder.addSpawn(MobCategory.WATER_CREATURE, new MobSpawnSettings.SpawnerData(EntityType.DOLPHIN, 1, 1, 2));
 
+        // Add ocean fish
+        spawnBuilder.addSpawn(MobCategory.WATER_AMBIENT, new MobSpawnSettings.SpawnerData(EntityType.COD, 8, 4, 8));
+        spawnBuilder.addSpawn(MobCategory.WATER_AMBIENT, new MobSpawnSettings.SpawnerData(EntityType.SALMON, 5, 1, 5));
         
         // Add hostile mobs
         BiomeDefaultFeatures.oceanSpawns(spawnBuilder, 1, 1, 1);

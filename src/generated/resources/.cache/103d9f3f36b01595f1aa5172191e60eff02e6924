@@ -1,4 +1,5 @@
-// 1.20.1	2025-10-01T22:37:04.0074357	Registries
+// 1.20.1	2025-10-02T16:39:40.3978804	Registries
 5314af5d70ab76f0342ed260fec50a59a9d285ab data/genesis/forge/biome_modifier/add_batata_ore.json
+7a0a6658a4a24bd3d99c50c30289d7d757f48426 data/genesis/worldgen/biome/mar_morto.json
 9cac80e01e6a32ab4ec52fb3ae3d861d10f99f32 data/genesis/worldgen/configured_feature/batata_ore.json
 05c172f27193304da8d88601d6eaeef1c9e57474 data/genesis/worldgen/placed_feature/batata_ore_placed.json

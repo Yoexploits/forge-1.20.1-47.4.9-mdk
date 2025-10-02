@@ -8,7 +8,7 @@ import net.minecraftforge.common.data.DatapackBuiltinEntriesProvider;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.raseli.genesismod.GenesisMod;
 import net.raseli.genesismod.worldgen.ModBiomeModifiers;
-import net.raseli.genesismod.worldgen.ModBiomes;
+import net.raseli.genesismod.worldgen.biome.ModBiomes;
 import net.raseli.genesismod.worldgen.ModConfiguredFeatures;
 import net.raseli.genesismod.worldgen.ModPlacedFeatures;
 
